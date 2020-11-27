@@ -1,0 +1,17 @@
+# 忽略所有的 .a 文件
+*.a
+*.txt
+# 但跟踪有的 lib.a，即便你前面忽略了 .a 文件
+!lib.a
+
+# 只忽略当前目录下的TOD0文件，而不忽略 subdir/TOD0
+build/
+
+# 忽略 doc/notes.txt，但不忽略 doc/server/arch.txt
+doc/*.txt
+
+# 忽略 doc/ 目录及所有子目录下的 .pdf 文件
+doc/**/*.pdf
+
+#忽略index.html文件
+index.html
